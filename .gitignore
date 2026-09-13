@@ -1,0 +1,18 @@
+# Build outputs
+**/[Bb]in/
+**/[Oo]bj/
+
+# IDE / Editor files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

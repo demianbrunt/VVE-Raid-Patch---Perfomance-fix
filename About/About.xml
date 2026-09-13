@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>VVE Raid - Minimal Performance Patch</name>
+  <author>Local patch</author>
+  <packageId>local.vveraid.minimalperformance</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Local, unofficial performance patch for VVE Raid. Uses spawned pawns for the existing vehicle selection instead of recursively searching all pawn holders. Keeps the original filters, snapshots, raid AI, tick frequency and timers. Adds no save data.
+
+Only applies to the verified VVE Raid and RimWorld builds. Unknown builds or an unexpected instruction pattern are skipped with a warning. Load after VVE Raid. Disable this mod and restart to revert.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+    <li>
+      <packageId>SmashPhil.VehicleFramework</packageId>
+      <displayName>Vehicle Framework</displayName>
+    </li>
+    <li>
+      <packageId>tlupatac.VVERaid</packageId>
+      <displayName>VVE Raid</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>SmashPhil.VehicleFramework</li>
+    <li>tlupatac.VVERaid</li>
+  </loadAfter>
+</ModMetaData>
