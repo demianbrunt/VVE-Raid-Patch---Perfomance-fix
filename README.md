@@ -9,6 +9,7 @@ An unofficial, standalone Harmony patch for RimWorld 1.6 targeting an idle perfo
 - **Not an Official Mod**: This repository is an unofficial third-party fix and is not created, maintained, or endorsed by **tlupatac**, the **Vanilla Expanded team**, or any contributors to **Vanilla Vehicles Expanded**.
 - **No Claim of Ownership**: All rights, code, textures, defs, trademarks, and intellectual property of **VVE Raid**, **Vanilla Vehicles Expanded**, and **RimWorld** belong to their respective original authors and **Ludeon Studios**.
 - **Non-Destructive**: This patch leaves all original Workshop files completely untouched and does not redistribute any original mod assemblies or assets.
+- **Context & Methodology**: I am just a busy software engineer who likes to relax with a game on the weekends without turning it into a second job or full-time hobby modding project. AI assistance was utilized to quickly help identify and isolate the exact IL hot path in the decompiled code, followed by human manual code review, IL verification, and in-game profiling with Dubs Performance Analyzer to validate the fix.
 
 ---
 
